@@ -71,3 +71,93 @@
 .nav-li a {
     color: white;
 }
+    /*SECTION-1*/ /*Lefit Block*/
+
+.section-1 {
+    margin-top: 90px;
+    margin-left: 139px;
+    width: 1088px;
+    height: 461px;
+    display: flex;
+    justify-content: space-between;
+}
+.image-container {
+    display: flex;
+    width: 545px;
+}
+.stairs {
+    margin-right: 16px;
+}
+.room {
+    margin-top: 16px;
+}
+/*Right Block*/
+
+.container-1 {
+    width: 1088px;
+    height: 461px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.right-block {
+    width: 444px;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.restaurant-3 {
+    font-size: 14px;
+    font-family: Poppins, serif;
+    font-weight: 600;
+    color: #5863F8;
+    margin-bottom: 1px;
+}
+.visit {
+    font-size: 42px;
+    font-family: Poppins, serif;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 10px;
+}
+.paragraph-1 {
+    font-size: 16px;
+    font-family: Poppins, serif;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+.paragraph-2 {
+    font-size: 14px;
+    font-family: Poppins, serif;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 20px;
+}
+.read-more {
+    width: 184px;
+    height: 50px;
+    background-color: #5863F8;
+    position: relative;
+}
+.read-more-h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Poppins, serif;
+    color: white;
+    text-transform: capitalize;
+}
+.fa-arrow-right {
+    position: absolute;
+    top: 50px;
+    right: 35px;
+    transform: translateY(-200%);
+    color: #FFFFFF;
+}
+.fa-arrow-right::before {
+    content: "\f061";
+}
+
