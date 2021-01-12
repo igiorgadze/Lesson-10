@@ -19,7 +19,7 @@
     left: 139px;
     color: white;
     font-size: 42px;
-    font-weight: 900;
+    font-weight: bolder;
     font-family: Poppins, serif;
     text-transform: capitalize;
 }
@@ -47,7 +47,7 @@
     top: 219px;
     left: 212px;
     margin-left: 17px;
-    font-weight: 600;
+    font-weight: bolder;
     text-transform: uppercase;
 }
 .navigator {
@@ -106,9 +106,9 @@
     margin-left: 200px;
 }
 .restaurant-3 {
-    font-size: 14px;
+    font-size: 13px;
     font-family: Poppins, serif;
-    font-weight: 600;
+    font-weight: bolder;
     color: #5863F8;
     margin-bottom: 1px;
 }
@@ -159,5 +159,73 @@
 }
 .fa-arrow-right::before {
     content: "\f061";
+}
+/*SECTION-2*/
+
+.section-2 {
+    width: 1088px;
+    margin-left: 139px;
+    margin-top: 111px;
+}
+.explore {
+    width: 503px;
+    font-size: 42px;
+    font-family: Poppins, serif;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 10px;
+}
+    /*SECTION-3*/
+
+.section-3 {
+    margin-left: 139px;
+    margin-top: 50px;
+}
+.food-block-1 {
+    display: inline-block;
+    background-color: #F8F8F8;
+    margin-right: 16px;
+
+}
+.text-wrapper {
+    width: 370px;
+    display: inline-block;
+    margin-left: 16px;
+}
+.text-h2 {
+    font-family: Poppins, serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #5863F8;
+}
+.text-h3 {
+    font-family: Poppins, serif;
+    font-weight: bolder;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+}
+.text-p {
+    font-family: Poppins, serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #B1B1B1;
+    width: 240px;
+}
+.box-arrow {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    background-color: #5863F8;
+    margin-left: 308px;
+}
+.fa-arrow-right {
+    content: "\f061";
+}
+/*SECTION-4*/
+.section-4 {
+    margin-left: 139px;
+    margin-top: 16px;
 }
 
